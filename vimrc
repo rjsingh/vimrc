@@ -1,3 +1,17 @@
+" ================ Plugin Settings ====================
+
+" Install vim-plug https://github.com/junegunn/vim-plug
+" Specify a directory for plugins
+call plug#begin('~/.vim/plugged')
+
+" Make sure you use single quotes
+
+Plug 'vim-airline/vim-airline'
+Plug 'scrooloose/nerdtree'
+
+" Initialize plugin system
+call plug#end()
+
 " General settings
 
 " Use Vim settings, rather then Vi settings (much better!).
