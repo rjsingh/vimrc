@@ -8,6 +8,7 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'vim-airline/vim-airline'
 Plug 'scrooloose/nerdtree'
+Plug 'tpope/vim-fugitive'
 
 " Initialize plugin system
 call plug#end()
