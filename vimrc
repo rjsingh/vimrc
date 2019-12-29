@@ -9,6 +9,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'vim-airline/vim-airline'
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-fugitive'
+Plug 'altercation/vim-colors-solarized'
 
 " Initialize plugin system
 call plug#end()
@@ -33,6 +34,10 @@ set hidden
 
 "turn on syntax highlighting
 syntax on
+
+" background color
+set background=dark
+colorscheme solarized
 
 " ================ Indentation ======================
 
